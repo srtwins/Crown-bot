@@ -1,0 +1,12 @@
+{
+  "name": "crown-bot",
+  "version": "1.0.0",
+  "description": "Backend for a StreamElements !steal / !king crown game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
