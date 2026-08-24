@@ -53,7 +53,7 @@ app.get("/steal", (req, res) => {
     state.king = user;
     state.lastCrowned = now;
     saveState(state);
-    return res.send(`@${user} has stolen the crown, they're the new king! Gang`);
+    return res.send(`@${user} has stolen the crown, they're the new king! Crown`);
   } else {
     saveState(state);
     return res.send(`@${user} tried to steal the crown but failed! The crown remains safe.`);
